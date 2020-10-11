@@ -3,29 +3,181 @@
 
 <!-- head -->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>menu</title>
+<style>       
+	ul.menu-n1{
+	  list-style-type: square;
+	}
+
+	ul.menu-n2{
+		list-style-type: disc;
+	}
+
+	ul.menu-n2 ul{
+		list-style-type: circle;
+	}
+  </style>
 </head>
 
 <!-- body -->
 <body>
-<applet code="KawaTree.class" align="baseline" width="200" height="550" name="Arborescence">
- <!--  	<param name="background" value=""> -->
-  	<param name="imagelist" value="decor/menuIcon.gif">
-  	<param name="iconcount" value="7">
-  	<param name="scrollup" value="3">
-  	<param name="scrolldn" value="4">
-  	<param name="treefile" value="decor/menuParameter.txt">
-  	<param name="frames" value="1">
-  	<param name="fontface" value="Dialog">
-  	<param name="fontsize" value="12">
-  	<param name="fontcolor" value="#000000">
-  	<param name="fonthilite" value="#0080c0">
-  	<param name="offset" value="0">
-  	<param name="treecolor" value="#CFCFCF">
-	<param name="autoretract" value="yes">
-	Votre navigateur n'est pas compatible Java !
-</applet>
+	<ul class="menu-n1">
+		<li><a target="content" href="welcome.html">Accueil</a></li>
+		<li><a target="content" href="maj.html">Nouveautés du site</a></li>
+
+		<li><a target="content" href="hebergements.html">Hébergements</a></li>
+		<ul class="menu-n2">
+			<li><a target="content" href="valdigne.html">Valdigne</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuge Bertone</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuge Bertone</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuge Deffeyes</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuge Elisabetta Soldini</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">Maison Vieille</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuge Monte Bianco</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">gîte la Pallud></a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">gîte Pavillon</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#valdigne">refuges Torino</a></li>
+				<li><a target="content" href="hebergements/valdigne/wBonatti.html">gîte Walter Bonatti</a></li>
+			</ul>
+
+			<li><a target="content" href="savoie.html">Savoie</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#savoie">refuge Croix du Bonhomme</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#savoie">hospice Petit St Bernard</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#savoie">refuge les Mottets</a></li>
+				<li><a target="content" href="hebergements/savoie/nova.html">auberge la Nova</a></li>
+				<li><a target="content" href="hebergements/savoie/planLaie.html">refuge Plan de la Laie</a></li>
+				<li><a target="content" href="hebergements/savoie/rBlanc.html">refuge Robert Blanc</a></li>
+				<li><a target="content" href="hebergements/savoie/veis.html">chalet des Veis</a></li>
+			</ul>
+
+			<li><a target="content" href="montJoly.html">Mont Joly</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#joly">gîte la Balme</a></li>
+				<li><a target="content" href="hebergements/montJoly/etape.html">gîte l'Etape</a></li>
+				<li><a target="content" href="hebergements/montJoly/melusine.html">gîte Mélusine</a></li>
+				<li><a target="content" href="hebergements/montJoly/montjoie.html">gîte Montjoie</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#joly">gîte Nant Borrant</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#joly">chalet Nivorin-Contamines</a></li>
+				<li><a target="content" href="hebergements/montJoly/pontet.html">gîte le Pontet</a></li>
+				<li><a target="content" href="hebergements/montJoly/porcherey.html">gîte Porcherey</a></li>
+				<li><a target="content" href="hebergements/montJoly/roselette.html">refuge Roselette</a></li>
+			</ul>
+
+			<li><a target="content" href="montjoie.html">Mont Blanc (val Montjoie)</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">gîte Bionnassay</a></li>
+				<li><a target="content" href="hebergements/montjoie/champel.html">gîte le Champel</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">gîte le Fioux</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">refuge Miage</a></li>
+				<li><a target="content" href="hebergements/montjoie/planGlacier.html">refuge Plan Glacier</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">refuge-hôtel Prarion</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">refuge Tré-la-Tête</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#montjoie">gîte le Truc</a></li>
+			</ul>
+
+			<li><a target="content" href="hebergements/hebergement5.html">Mont Blanc (accès alpin)</a></li>
+
+			<li><a target="content" href="arve.html">Mont Blanc (vallée Arve)</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#arve">les Amis de la Nature</a></li>
+				<li><a target="content" href="hebergements/arve/cialc.html">gîte CIALC</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#arve">gîte les Crêts</a></li>
+				<li><a target="content" href="hebergements/arve/glaciersMtBlanc.html">chalet Glaciers Mt Blanc</a></li>
+				<li><a target="content" href="hebergements/arve/mFagot.html">gîte Michel Fagot</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#arve">refuge Plan des Aiguilles</a></li>
+			</ul>
+
+			<li><a target="content" href="aigRouges.html">Aiguilles Rouges</a></li>
+			<ul>
+				<li><a target="content" href="hebergements/heberg_AsF.html#aigRouges">refuge Bel Lachat</a></li>
+				<li><a target="content" href="hebergements/aigRouges/servoz.html">gîtes du vieux Servoz</a></li>
+				<li><a target="content" href="hebergements/aigRouges/skiStation.html">gîte Ski Station</a></li>
+				<li><a target="content" href="hebergements/heberg_AsF.html#aigRouges">gîte Tupilak</a></li>
+			</ul>
+		</ul>
+
+		<li><a target="content" href="itineraires.html">Itinéraires</a></li>
+		<ul class="menu-n2">
+			<li><a target="content" href="itineraires/itinerairesAsf.html">Itinéraires AsF&copy;</a></li>
+			<li><a target="content" href="itineraires/itinerairesGds.html">Grands itinéraires</a></li>
+		</ul>
+
+		<li><a target="content" href="randos1j.html">Randonnées d'un jour</a></li>
+		<ul class="menu-n2">
+			<li><a target="content" href="valdigne.html">Valdigne</a></li>
+			<li><a target="content" href="savoie.html">Savoie</a></li>			
+			<ul>
+				<li><a target="content" href="randos1j/Savoie/lacRetour.html">lac du Retour</a></li>
+				<li><a target="content" href="randos1j/Savoie/breuil.html">col du Breuil</a></li>
+				<li><a target="content" href="randos1j/Savoie/clavettaz.html">la Clavettaz</a></li>
+				<li><a target="content" href="randos1j/Savoie/enclave.html">col des Enclaves</a></li>
+				<li><a target="content" href="randos1j/Savoie/forclazSN.html">col de la Forclaz</a></li>
+				<li><a target="content" href="randos1j/Savoie/fours.html">têtes des Fours</a></li>
+				<li><a target="content" href="randos1j/Savoie/gdesAig.html">Grandes Aiguilles</a></li>
+				<li><a target="content" href="randos1j/Savoie/gittes.html">crête des Gittes</a></li>
+				<li><a target="content" href="randos1j/Savoie/lancebranlette.html">Lancebranlette</a></li>
+				<li><a target="content" href="randos1j/Savoie/lacRousses.html">lac des Roussses</a></li>
+				<li><a target="content" href="randos1j/Savoie/louieBlanche.html">tête Louie Blanche</a></li>
+				<li><a target="content" href="randos1j/Savoie/miravidi.html">Miravidi</a></li>
+				<li><a target="content" href="randos1j/Savoie/observatoire.html">Observatoire</a></li>
+				<li><a target="content" href="randos1j/Savoie/ouillonSN.html">col des Ouillons</a></li>
+				<li><a target="content" href="randos1j/Savoie/rFranches.html">Roches Franches</a></li>
+				<li><a target="content" href="randos1j/Savoie/seigne.html">collet de la Seigne</a></li>
+				<li><a target="content" href="randos1j/Savoie/terrasse.html">la Terrasse</a></li>
+			</ul>
+
+			<li><a target="content" href="montJoly.html">Mont Joly</a></li>
+			<ul>
+				<li><a target="content" href="randos1j/MontJoly/aigCroche.html">aiguille Croche</a></li>
+				<li><a target="content" href="randos1j/MontJoly/fenetre.html">col de la Fenêtre</a></li>
+			</ul>
+			
+			<li><a target="content" href="montjoie.html">Mont Blanc (val Montjoie)</a></li>
+			<ul>
+				<li><a target="content" href="randos1j/Montjoie/Jovet.html">lacs Jovet</a></li>
+				<li><a target="content" href="randos1j/Montjoie/gdeRoche.html">Gde Roche Tré-la-Tête</a></li>
+				<li><a target="content" href="randos1j/Montjoie/Triangle.html">le Triangle</a></li>
+				<li><a target="content" href="randos1j/Montjoie/Covagnet.html">combe de Covagnet</a></li>
+				<li><a target="content" href="randos1j/Montjoie/Vorassay.html">tour du Vorassay</a></li>
+				<li><a target="content" href="randos1j/Montjoie/planGlacier.html">plan Glacier</a></li>
+				<li><a target="content" href="randos1j/Montjoie/Rognes.html">cabane des Rognes</a></li>
+				<li><a target="content" href="randos1j/Montjoie/valMontjoie.html">sentier du val Montjoie</a></li>
+			</ul>
+
+			<li><a target="content" href="randos1j/rando5.html">Mont Blanc (accès alpin)</a></li>
+
+			<li><a target="content" href="arve.html">Mont Blanc (vallée Arve)</a></li>
+			<ul>
+				<li><a target="content" href="randos1j/Arve/Derochoir.html">dérochoir des Rognes</a></li>
+				<li><a target="content" href="randos1j/Arve/Glaciers.html">les Glaciers</a></li>
+				<li><a target="content" href="randos1j/Arve/Gures.html">camp des Gures</a></li>
+				<li><a target="content" href="randos1j/Arve/Jonction.html">la Jonction</a></li>
+			</ul>
+
+			<li><a target="content" href="aigRouges.html">Aiguilles Rouges</a></li>
+			<ul>
+				<li><a target="content" href="randos1j/AigRouges/Lapaz.html">Pte de Lapaz</a></li>
+				<li><a target="content" href="randos1j/AigRouges/lacBrevent.html">lac du Brévent</a></li>
+			</ul>
+		</ul>
+
+	
+		<li><a target="content" href="autresAspects.html">Autres aspects</a></li>
+		<ul class="menu-n2">
+			<li><a target="content" href="autresAspects/projetAsf.html">le projet AsF&copy; </a></li>
+			<li><a target="content" href="autresAspects/archeologie.html">Archeologie</a></li>
+			<li><a target="content" href="autresAspects/baroque.html">Baroque</a></li>
+			<li><a target="content" href="autresAspects/transports.html">Transports publics</a></li>
+		</ul>
+
+		<li><a target="content" href="contacts.html">Contacts</a></li>
+		<li><a target="content" href="liens.html">Liens</a></li>
+
+	</ul>
+	
 </body>
 
 </html>
